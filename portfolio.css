@@ -1,0 +1,121 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f6f9;
+}
+/* Header */
+
+header{
+background:linear-gradient(90deg,grey);
+color:white;
+text-align:center;
+padding:30px;
+}
+
+header h1{
+margin:0;
+font-size:35px;
+}
+/* Navigation */
+
+nav{
+margin-top:15px;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:8px 15px;
+border:1px solid white;
+border-radius:5px;
+}
+
+nav a:hover{
+background:white;
+color:#182848;
+}
+
+/* Sections */
+section{
+padding:40px;
+}
+
+h2{
+color:#333;
+margin-bottom:20px;
+}
+
+/* About Box */
+
+.about-box{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+width:70%;
+margin:auto;
+text-align:center;
+font-size:18px;
+}
+
+/* Skills */
+ul{
+list-style:none;
+padding:0;
+}
+
+ul li{
+background:#4b6cb7;
+color:white;
+display:inline-block;
+padding:10px 15px;
+margin:5px;
+border-radius:5px;
+}
+
+/* Cards */
+
+.card-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+width:220px;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+background:#4b6cb7;
+color:white;
+}
+
+/* Contact */
+
+.contact-box{
+background:white;
+padding:20px;
+width:320px;
+margin:auto;
+text-align:center;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+background:#182848;
+color:white;
+padding:15px;
+margin-top:20px;
+}
